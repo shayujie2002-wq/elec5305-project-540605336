@@ -1,0 +1,15 @@
+1. Install packages:
+   pip install numpy scipy matplotlib pandas PyWavelets wfdb
+
+2. Run:
+   python feedback2_ecg_preliminary.py
+
+3. Upload to GitHub:
+   - feedback2_ecg_preliminary.py
+   - README.md
+   - results/ folder
+
+4. After running, use the actual metrics from results/preliminary_metrics.csv
+   in your README or Canvas description if you want a more concrete progress report.
+
+5. Verify the GitHub Pages link before submission.

@@ -1,0 +1,13 @@
+Project: ECG Signal Denoising Using Digital Filtering and Wavelet-Based Methods
+
+Since Feedback 1, I have started implementing the proposed ECG denoising pipeline in Python. The current prototype loads ECG data from the MIT-BIH Arrhythmia Database using PhysioNet/WFDB, adds controlled baseline wander, 50 Hz power-line interference, and random high-frequency noise, and then applies both conventional digital filtering and preliminary wavelet denoising.
+
+The conventional processing uses a 50 Hz notch filter followed by a 0.5-40 Hz Butterworth band-pass filter. I have also implemented an initial discrete wavelet transform (DWT) denoising stage using wavelet coefficient thresholding. The clean, noisy, and processed ECG signals are compared in the time and frequency domains, and preliminary performance is evaluated using SNR, SNR improvement, MSE, and RMSE.
+
+The next stage will test additional MIT-BIH recordings and systematically compare filter parameters and wavelet settings, with particular attention to preserving ECG morphology.
+
+GitHub repository:
+https://github.com/shayujie2002-wq/elec5305-project-540605336
+
+GitHub Project Site:
+https://shayujie2002-wq.github.io/elec5305-project-540605336/
