@@ -1,0 +1,61 @@
+{
+  "seed": 540605336,
+  "development_records": [
+    "100",
+    "101"
+  ],
+  "test_records": [
+    "103",
+    "105",
+    "109",
+    "111"
+  ],
+  "starts_s": [
+    5,
+    25,
+    45
+  ],
+  "noise_conditions": [
+    "baseline",
+    "powerline",
+    "white",
+    "mixed"
+  ],
+  "scales": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "test_repeats": 3,
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2",
+    "PyWavelets": "1.10.0",
+    "wfdb": "4.3.1"
+  },
+  "data_sha256": {
+    "100.atr": "8d8a5349fb16638ebbf649f1779d12e96d91b736b2aafe59db43719ae583d471",
+    "100.dat": "b2ea3c250e56e48f4b7b90697832b8ecd1afa1e0bb31f2dcfea4ed6e1075a639",
+    "100.hea": "60ebc904c7bf3e04d142638d3fd5c903e8dc9f10f1ea3264e07926aa089ee75e",
+    "101.atr": "441cdd6486cfdf4c53e344d1048ab81296773e7058d53069022adc68543a0663",
+    "101.dat": "698d1ea6f472d23ca50317c72c96cda2698badd8578220ed0380cdf241e39006",
+    "101.hea": "d5f02fbe8673fa05465442191b98ca0d28a1670e7ef0e83fb9ef8723113a311c",
+    "103.atr": "392ce37fbc7e89b3f14998e197a844f23cce6a3db6edaa71b4b49bf3ca5b6596",
+    "103.dat": "f7994f0bd196730779998b4bddf26cb47f396599fb370a08b5cb29a3ac4d555d",
+    "103.hea": "3da9706fc27cc5d627a31b04b74b908ac0b6e061843a87cbd57801e5ea0fed7b",
+    "105.atr": "278d534c1ad952a6d41db963b6b2b00be070d8dd5fa66545caa5c18edcc36497",
+    "105.dat": "fcd0153dfea69c749194bb73de7db124588857cfa2f6aecb72754894c8afde02",
+    "105.hea": "9a024eebf8e9baf630308815e689d7e3eab471ab0069db6aded127c396418d48",
+    "109.atr": "2eef456587bab17263a126063321c040affa29bc4ccfdf2a2bc7fe50709fa1b8",
+    "109.dat": "267afd6ced7a1fd5a8bcd21fcc2b83287e37e3ef57f32e8a0fe39a6e021951cd",
+    "109.hea": "3b21402a9a096acb6a2199b25681e40b0dd201494cb023ded514cd9726bb7fad",
+    "111.atr": "372ed78bb0bbe7d5d9dc7e676c03d72530729775b5cfa94501485329fc47b8cb",
+    "111.dat": "8372d98ae59fbfd023502a9d0fc03fb5383083da92584b964484e18593e08485",
+    "111.hea": "9e635a715d6cc44a716a7a73c6dd365bd94099f94e63accb2a65c5b25b4b69b5"
+  }
+}

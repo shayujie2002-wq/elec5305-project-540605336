@@ -1,0 +1,18 @@
+{
+  "dwt": {
+    "wavelet": "db4",
+    "level": 4,
+    "alpha": 1.0
+  },
+  "digital": {
+    "order": 4,
+    "low": 0.7,
+    "high": 45
+  },
+  "hybrid": {
+    "low": 0.7,
+    "wavelet": "sym8",
+    "level": 4,
+    "alpha": 0.5
+  }
+}

@@ -1,0 +1,1 @@
+PASS: baseline reproduction, 432 paired cases, 3024 unique rows, metric identities, disjoint records, deterministic noise, reconstruction and output integrity.
